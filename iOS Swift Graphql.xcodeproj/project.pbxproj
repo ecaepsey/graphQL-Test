@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2145EFC0037AA82FF8C5253A /* Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D559192C95B90C6C7E6D6FF /* Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework */; };
 		5643C082296FFE6F00B1F2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C081296FFE6F00B1F2D6 /* AppDelegate.swift */; };
 		5643C084296FFE6F00B1F2D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C083296FFE6F00B1F2D6 /* SceneDelegate.swift */; };
 		5643C086296FFE6F00B1F2D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C085296FFE6F00B1F2D6 /* ViewController.swift */; };
@@ -16,6 +17,15 @@
 		5643C099296FFE7100B1F2D6 /* iOS_Swift_GraphqlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C098296FFE7100B1F2D6 /* iOS_Swift_GraphqlTests.swift */; };
 		5643C0A3296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0A2296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITests.swift */; };
 		5643C0A5296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0A4296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITestsLaunchTests.swift */; };
+		5643C0B92970955000B1F2D6 /* ReposListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5643C0B82970955000B1F2D6 /* ReposListCell.xib */; };
+		5643C0BB2970957D00B1F2D6 /* ReposListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0BA2970957D00B1F2D6 /* ReposListCell.swift */; };
+		5643C0BD29712A2A00B1F2D6 /* ReposListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0BC29712A2A00B1F2D6 /* ReposListViewModel.swift */; };
+		5643C0BF29712E6A00B1F2D6 /* NetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0BE29712E6A00B1F2D6 /* NetworkInterceptor.swift */; };
+		5643C0C129712E9800B1F2D6 /* TableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0C029712E9800B1F2D6 /* TableView+Extensions.swift */; };
+		5643C0C6297134BD00B1F2D6 /* github.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5643C0C5297134BD00B1F2D6 /* github.graphql */; };
+		5643C0C82971351200B1F2D6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643C0C72971351200B1F2D6 /* API.swift */; };
+		67423E58C9F3FB3DA3FDB063 /* Pods_iOS_Swift_GraphqlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BF124345B3E9E2E6F0D0B /* Pods_iOS_Swift_GraphqlTests.framework */; };
+		FFBADB2EB119EEF1CE2F1C31 /* Pods_iOS_Swift_Graphql.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEACF11B25F8004A305A131 /* Pods_iOS_Swift_Graphql.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D75C59028D8020ACCEBF58 /* Pods-iOS Swift GraphqlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift GraphqlTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Swift GraphqlTests/Pods-iOS Swift GraphqlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37EFF2710399394C2500E738 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5643C07E296FFE6F00B1F2D6 /* iOS Swift Graphql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Swift Graphql.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5643C081296FFE6F00B1F2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5643C083296FFE6F00B1F2D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		5643C09E296FFE7100B1F2D6 /* iOS Swift GraphqlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Swift GraphqlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5643C0A2296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Swift_GraphqlUITests.swift; sourceTree = "<group>"; };
 		5643C0A4296FFE7100B1F2D6 /* iOS_Swift_GraphqlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Swift_GraphqlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5643C0B82970955000B1F2D6 /* ReposListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReposListCell.xib; sourceTree = "<group>"; };
+		5643C0BA2970957D00B1F2D6 /* ReposListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListCell.swift; sourceTree = "<group>"; };
+		5643C0BC29712A2A00B1F2D6 /* ReposListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListViewModel.swift; sourceTree = "<group>"; };
+		5643C0BE29712E6A00B1F2D6 /* NetworkInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptor.swift; sourceTree = "<group>"; };
+		5643C0C029712E9800B1F2D6 /* TableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extensions.swift"; sourceTree = "<group>"; };
+		5643C0C5297134BD00B1F2D6 /* github.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = github.graphql; sourceTree = "<group>"; };
+		5643C0C72971351200B1F2D6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		596793D8B67BAF16C596F1A6 /* Pods-iOS Swift GraphqlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift GraphqlTests.release.xcconfig"; path = "Target Support Files/Pods-iOS Swift GraphqlTests/Pods-iOS Swift GraphqlTests.release.xcconfig"; sourceTree = "<group>"; };
+		70E31E9A05C977E489B4740F /* Pods-iOS Swift Graphql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift Graphql.debug.xcconfig"; path = "Target Support Files/Pods-iOS Swift Graphql/Pods-iOS Swift Graphql.debug.xcconfig"; sourceTree = "<group>"; };
+		741347EF58C9FE287E9F2B9D /* Pods-iOS Swift Graphql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift Graphql.release.xcconfig"; path = "Target Support Files/Pods-iOS Swift Graphql/Pods-iOS Swift Graphql.release.xcconfig"; sourceTree = "<group>"; };
+		8B6BF124345B3E9E2E6F0D0B /* Pods_iOS_Swift_GraphqlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Swift_GraphqlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D559192C95B90C6C7E6D6FF /* Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12647EB725716E3ED8A3A38 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCEACF11B25F8004A305A131 /* Pods_iOS_Swift_Graphql.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Swift_Graphql.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBADB2EB119EEF1CE2F1C31 /* Pods_iOS_Swift_Graphql.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67423E58C9F3FB3DA3FDB063 /* Pods_iOS_Swift_GraphqlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2145EFC0037AA82FF8C5253A /* Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BD832DFF6F17D69E06E5CB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCEACF11B25F8004A305A131 /* Pods_iOS_Swift_Graphql.framework */,
+				9D559192C95B90C6C7E6D6FF /* Pods_iOS_Swift_Graphql_iOS_Swift_GraphqlUITests.framework */,
+				8B6BF124345B3E9E2E6F0D0B /* Pods_iOS_Swift_GraphqlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5643C075296FFE6F00B1F2D6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				5643C097296FFE7100B1F2D6 /* iOS Swift GraphqlTests */,
 				5643C0A1296FFE7100B1F2D6 /* iOS Swift GraphqlUITests */,
 				5643C07F296FFE6F00B1F2D6 /* Products */,
+				6E84FAC946C69C2ABBB04ECF /* Pods */,
+				1BD832DFF6F17D69E06E5CB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +140,7 @@
 		5643C080296FFE6F00B1F2D6 /* iOS Swift Graphql */ = {
 			isa = PBXGroup;
 			children = (
+				5643C0C2297132EB00B1F2D6 /* GraphQL */,
 				5643C081296FFE6F00B1F2D6 /* AppDelegate.swift */,
 				5643C083296FFE6F00B1F2D6 /* SceneDelegate.swift */,
 				5643C085296FFE6F00B1F2D6 /* ViewController.swift */,
@@ -106,6 +148,11 @@
 				5643C08A296FFE7000B1F2D6 /* Assets.xcassets */,
 				5643C08C296FFE7000B1F2D6 /* LaunchScreen.storyboard */,
 				5643C08F296FFE7000B1F2D6 /* Info.plist */,
+				5643C0B82970955000B1F2D6 /* ReposListCell.xib */,
+				5643C0BA2970957D00B1F2D6 /* ReposListCell.swift */,
+				5643C0BC29712A2A00B1F2D6 /* ReposListViewModel.swift */,
+				5643C0BE29712E6A00B1F2D6 /* NetworkInterceptor.swift */,
+				5643C0C029712E9800B1F2D6 /* TableView+Extensions.swift */,
 			);
 			path = "iOS Swift Graphql";
 			sourceTree = "<group>";
@@ -127,6 +174,28 @@
 			path = "iOS Swift GraphqlUITests";
 			sourceTree = "<group>";
 		};
+		5643C0C2297132EB00B1F2D6 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				5643C0C72971351200B1F2D6 /* API.swift */,
+				5643C0C5297134BD00B1F2D6 /* github.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		6E84FAC946C69C2ABBB04ECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70E31E9A05C977E489B4740F /* Pods-iOS Swift Graphql.debug.xcconfig */,
+				741347EF58C9FE287E9F2B9D /* Pods-iOS Swift Graphql.release.xcconfig */,
+				37EFF2710399394C2500E738 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.debug.xcconfig */,
+				B12647EB725716E3ED8A3A38 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.release.xcconfig */,
+				10D75C59028D8020ACCEBF58 /* Pods-iOS Swift GraphqlTests.debug.xcconfig */,
+				596793D8B67BAF16C596F1A6 /* Pods-iOS Swift GraphqlTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5643C0A8296FFE7100B1F2D6 /* Build configuration list for PBXNativeTarget "iOS Swift Graphql" */;
 			buildPhases = (
+				7497DE6131A080118115E9E4 /* [CP] Check Pods Manifest.lock */,
 				5643C07A296FFE6F00B1F2D6 /* Sources */,
 				5643C07B296FFE6F00B1F2D6 /* Frameworks */,
 				5643C07C296FFE6F00B1F2D6 /* Resources */,
+				5643C0B12970029300B1F2D6 /* ShellScript */,
+				0A42413F8E99AAB40EAAF9CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5643C0AB296FFE7100B1F2D6 /* Build configuration list for PBXNativeTarget "iOS Swift GraphqlTests" */;
 			buildPhases = (
+				F4E5680A1F9927E10972E820 /* [CP] Check Pods Manifest.lock */,
 				5643C090296FFE7100B1F2D6 /* Sources */,
 				5643C091296FFE7100B1F2D6 /* Frameworks */,
 				5643C092296FFE7100B1F2D6 /* Resources */,
@@ -169,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5643C0AE296FFE7100B1F2D6 /* Build configuration list for PBXNativeTarget "iOS Swift GraphqlUITests" */;
 			buildPhases = (
+				24D8B642C912FC3AF8674EA2 /* [CP] Check Pods Manifest.lock */,
 				5643C09A296FFE7100B1F2D6 /* Sources */,
 				5643C09B296FFE7100B1F2D6 /* Frameworks */,
 				5643C09C296FFE7100B1F2D6 /* Resources */,
+				DC55B4CE4C7AEF5866238DEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5643C08E296FFE7000B1F2D6 /* LaunchScreen.storyboard in Resources */,
+				5643C0C6297134BD00B1F2D6 /* github.graphql in Resources */,
 				5643C08B296FFE7000B1F2D6 /* Assets.xcassets in Resources */,
 				5643C089296FFE6F00B1F2D6 /* Main.storyboard in Resources */,
+				5643C0B92970955000B1F2D6 /* ReposListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +330,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A42413F8E99AAB40EAAF9CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql/Pods-iOS Swift Graphql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql/Pods-iOS Swift Graphql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql/Pods-iOS Swift Graphql-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24D8B642C912FC3AF8674EA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5643C0B12970029300B1F2D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\nSCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+		7497DE6131A080118115E9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Swift Graphql-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC55B4CE4C7AEF5866238DEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests/Pods-iOS Swift Graphql-iOS Swift GraphqlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E5680A1F9927E10972E820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Swift GraphqlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5643C07A296FFE6F00B1F2D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5643C086296FFE6F00B1F2D6 /* ViewController.swift in Sources */,
+				5643C0BB2970957D00B1F2D6 /* ReposListCell.swift in Sources */,
+				5643C0BD29712A2A00B1F2D6 /* ReposListViewModel.swift in Sources */,
 				5643C082296FFE6F00B1F2D6 /* AppDelegate.swift in Sources */,
+				5643C0C129712E9800B1F2D6 /* TableView+Extensions.swift in Sources */,
+				5643C0BF29712E6A00B1F2D6 /* NetworkInterceptor.swift in Sources */,
+				5643C0C82971351200B1F2D6 /* API.swift in Sources */,
 				5643C084296FFE6F00B1F2D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,12 +634,14 @@
 		};
 		5643C0A9296FFE7100B1F2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E31E9A05C977E489B4740F /* Pods-iOS Swift Graphql.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ASXA53JDC5;
+				DEVELOPMENT_TEAM = 8767U6BD8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS Swift Graphql/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,27 +649,31 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kg.beeline.gg.iOS-Swift-Graphql";
+				PRODUCT_BUNDLE_IDENTIFIER = j;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5643C0AA296FFE7100B1F2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741347EF58C9FE287E9F2B9D /* Pods-iOS Swift Graphql.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ASXA53JDC5;
+				DEVELOPMENT_TEAM = 8767U6BD8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS Swift Graphql/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,21 +681,24 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kg.beeline.gg.iOS-Swift-Graphql";
+				PRODUCT_BUNDLE_IDENTIFIER = j;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5643C0AC296FFE7100B1F2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D75C59028D8020ACCEBF58 /* Pods-iOS Swift GraphqlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +719,7 @@
 		};
 		5643C0AD296FFE7100B1F2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596793D8B67BAF16C596F1A6 /* Pods-iOS Swift GraphqlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +740,7 @@
 		};
 		5643C0AF296FFE7100B1F2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EFF2710399394C2500E738 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +759,7 @@
 		};
 		5643C0B0296FFE7100B1F2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12647EB725716E3ED8A3A38 /* Pods-iOS Swift Graphql-iOS Swift GraphqlUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
